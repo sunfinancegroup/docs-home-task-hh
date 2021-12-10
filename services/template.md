@@ -82,7 +82,7 @@ It is up to you how to design the aggregate, what value objects [1] to implement
 
 ### Templating engine
 
-Delimeters `{{` and `}}` can be replaced with some else. You can use a third-party template Engine if you want.
+Delimeters `{{` and `}}` can be replaced with something else. You can use a third-party template Engine if you want.
 
 ### Optional
 
