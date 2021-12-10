@@ -32,4 +32,4 @@ Choose whatever storage you like: RDBMS, document-oriented DB, memory, or filesy
 
 ### Optional
 
-Add support for retry mechanism if messaging dispatching failed.
+Add support for retry mechanism if notification dispatching failed.
