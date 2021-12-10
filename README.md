@@ -21,7 +21,7 @@ Tooling:
 Result evaluation:
 
 - we expect to checkout your code from _Git_;
-- running `docker-compose up` should start the project with all fixtures loaded;
+- running `docker-compose up` should start the project with schema and fixtures loaded;
 - we should be able to access containers from local machine in order to evaluate the result;
 - add README with your notes and setup instruction if required.
 
