@@ -46,8 +46,12 @@ Numeric code is never exposed via REST API.
 1. Each verification is only valid for 5 minutes until confirmed or expired.
 2. It must not be possible to create a duplicated "pending" verification for the same subject.
 3. Verification can only be confirmed if `clientInfo` matches.
-4. When invalid confirmation code is supplied 5 times verification automatically expire.
+4. When invalid confirmation code is supplied 5 times verification automatically expires.
 5. Verification confirmation is idempotent [1].
+
+## Configuration
+
+Verification code length (up to 8 digits) and expiration tll (default 5 minutes) must configured via enviroment variables.
 
 ## Task
 
