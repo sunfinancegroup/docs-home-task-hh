@@ -51,7 +51,7 @@ Numeric code is never exposed via REST API.
 
 ## Configuration
 
-Verification code length (up to 8 digits) and expiration tll (default 5 minutes) must configured via enviroment variables.
+Verification code length (up to 8 digits) and expiration ttl (default 5 minutes) must be configured via enviroment variables.
 
 ## Task
 
