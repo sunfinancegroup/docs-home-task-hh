@@ -57,7 +57,7 @@ Verification code length (up to 8 digits) and expiration ttl (default 5 minutes)
 
 You need to implement two public API REST endpoints.
 
-### Creating new verification
+### 1. Creating new verification
 
 ```bash
 curl -i -X POST -H 'Content-Type: application/json' http://<public-app>:<port>/verifications -d '{
@@ -84,7 +84,7 @@ Content-Type: application/json
 | 409  | Duplicated verification.                     |
 | 422  | Validation failed: invalid subject supplied. |
 
-### Confirming verification
+### 2. Confirming verification
 
 ```bash
 curl -i -X PUT -H 'Content-Type: application/json' http://<public-app>:<port>/verifications/b249b759-11a7-4b8b-a38d-e53d193d4e90/confirm -d '{
