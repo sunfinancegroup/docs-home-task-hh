@@ -28,7 +28,7 @@ Dispatch notification via appropriate channel:
 
 ### Storage
 
-Choose whatever storage you like: RDBMS, document-oriented DB, memory, or filesystem.
+Choose whatever storage you like: RDBMS, document-oriented DB, memory or filesystem.
 
 ### Optional
 
