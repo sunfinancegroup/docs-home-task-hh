@@ -70,7 +70,7 @@ Content-Length: 289
 
 ### Storage
 
-Choose whatever storage you like: RDBMS, document-oriented DB, memory, or filesystem. At least the following properties must exist on the aggregate:
+Choose whatever storage you like: RDBMS, document-oriented DB, memory or filesystem. At least the following properties must exist on the aggregate:
 
 - `id`
 - `slug`
