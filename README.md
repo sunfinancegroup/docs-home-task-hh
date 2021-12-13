@@ -62,7 +62,8 @@ It is completely fine two stop right away, when above specification is implement
 However, if you're feeling advantageous below are additional points to make your work perfect:
 
 - implement unit tests for application [5] and domain services;
-- implement outbox pattern [6].
+- implement outbox pattern [6];
+- configure API Gateway [7] e.g. _Kong_ or _KrakenD_.
 
 ## References
 
@@ -72,3 +73,4 @@ However, if you're feeling advantageous below are additional points to make your
  4. http://ddd.fed.wiki.org/view/open-host-service
  5. https://martinfowler.com/eaaCatalog/serviceLayer.html
  6. https://microservices.io/patterns/data/transactional-outbox.html
+ 7. https://microservices.io/patterns/apigateway.html
