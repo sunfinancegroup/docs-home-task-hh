@@ -32,4 +32,6 @@ Choose whatever storage you like: RDBMS, document-oriented DB, memory or filesys
 
 ### Optional
 
-Add support for retry mechanism if notification dispatching failed.
+- Emit `NotificationCreated` and `NotificationDispatched` domain events.
+- Add support for retry mechanism if notification dispatching failed.
+
