@@ -17,7 +17,7 @@ You need to implement a single private API REST endpoint.
 
 ```bash
 curl -i -X POST -H 'Content-Type: application/json' http://<private-app>:<port>/templates/render -d '{
-  "slug": "mobile-verfication",
+  "slug": "mobile-verification",
   "variables": {"code": "1234"}
 }'
 
@@ -32,7 +32,7 @@ Your verification code is 1234.
 
 ```bash
 curl -i -X POST -H 'Content-Type: application/json' http://<private-app>:<port>/templates/render -d '{
-  "slug": "email-verfication",
+  "slug": "email-verification",
   "variables": {"code": "1234"}
 }'
 
