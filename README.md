@@ -57,7 +57,7 @@ Downstream consumer part of the system. [Notification](services/notification.md)
 
 ## Optional
 
-It is completely fine two stop right away, when above specification is implemented.
+It is completely fine to stop right away, when above specification is implemented.
 
 However, if you're feeling advantageous below are additional points to make your work perfect:
 
