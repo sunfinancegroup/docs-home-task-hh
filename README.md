@@ -28,7 +28,7 @@ Result evaluation:
 Hints:
 
 - take your time, learn what you don't know;
-- follow supplied references if your want to expand on some topic;
+- follow supplied references if you want to expand on some topic;
 - if you have any questions don't hesitate to contact us (contact person will be provided to you);
 - don't try to be perfect.
 
@@ -49,7 +49,7 @@ This part of the system acts like Open Host Service [4]. [Template](services/tem
 
 ### Verification
 
-Upsteam public facing part of the system. [Verification](services/verification.md) specification.
+Upstream public facing part of the system. [Verification](services/verification.md) specification.
 
 ### Notification
 
