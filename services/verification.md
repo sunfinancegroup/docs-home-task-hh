@@ -51,7 +51,7 @@ Numeric code is never exposed via REST API.
 
 ## Configuration
 
-Verification code length (up to 8 digits) and expiration ttl (default 5 minutes) must be configured via enviroment variables.
+Verification code length (up to 8 digits) and expiration TTL (default 5 minutes) must be configured via enviroment variables.
 
 ## Task
 
@@ -111,7 +111,7 @@ Choose RDBMS you like.
 
 ## Events
 
-Any mutation of aggreage must emit a corresponding domain event [2] to the message broker. Make sure following domain events are emitted:
+Any mutation of aggregate must emit a corresponding domain event [2] to the message broker. Make sure following domain events are emitted:
 
 - `VerificationCreated`
 - `VerificationConfirmed`
